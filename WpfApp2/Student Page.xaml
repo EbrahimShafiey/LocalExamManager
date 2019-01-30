@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpfApp2.Student_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Student Page" Height="802" Width="1536">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="527*"/>
+            <ColumnDefinition Width="1002*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl HorizontalAlignment="Left" Height="752" Margin="10,10,0,0" VerticalAlignment="Top" Width="1510" Grid.ColumnSpan="2">
+            <TabItem Header="صفحه اصلی">
+                <Grid Background="#FFE5E5E5">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="233" Margin="1157,15,0,0" VerticalAlignment="Top" Width="336" Background="#FFFFF898">
+                        <Label x:Name="studentdata" Content="به سطح دسترسی دانشجو خوش آمدید&#xD;&#xA;&#xD;&#xA;Student ID:&#xD;&#xA;Student First Name:&#xD;&#xA;Student Last Name:&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Height="174" Margin="9.2,9.2,0,0" VerticalAlignment="Top" Width="316" FontSize="18"/>
+                    </Border>
+                    <Button Content="خروج از حساب " HorizontalAlignment="Left" Height="28" Margin="1233,208,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click_2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="پاسخگویی">
+                <Grid Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}">
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="176" Margin="10,23,0,0" VerticalAlignment="Top" Width="996" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+                        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="153" Margin="13.2,12.2,0,0" VerticalAlignment="Top" Width="154">
+                            <Label x:Name="lblExamShow" Content="" HorizontalAlignment="Left" Height="133" Margin="10.2,9.2,0,0" VerticalAlignment="Top" Width="133"/>
+                        </Border>
+                    </Border>
+                    <TextBox x:Name="Answertxt" HorizontalAlignment="Left" Height="220" Margin="10,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="996" FontSize="18" Background="#FFFFFFBF"/>
+                    <Label x:Name="lblQAnswer" Content="جواب سوال 1" HorizontalAlignment="Left" Height="43" Margin="443,206,0,0" VerticalAlignment="Top" Width="164" Background="#FFFFFFBF" FontSize="20" Padding="20,5,27,5"/>
+                    <Button x:Name="btnPrivousQ" Content="سوال قبل" HorizontalAlignment="Left" Height="47" Margin="12,475,0,0" VerticalAlignment="Top" Width="214" Click="btnPrivousQ_Click" Padding="1,-2,-21,1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Untitled-23.png" Stretch="UniformToFill"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnNextQ" Content="سوال بعد" HorizontalAlignment="Left" Height="47" Margin="799,475,0,0" VerticalAlignment="Top" Width="207" Click="Button_Click" Padding="-20,-2,1,1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Untitled-2.png" Stretch="UniformToFill"/>
+                        </Button.Background>
+                    </Button>
+                    <Label Content="مدت زمان باقیمانده : 60" HorizontalAlignment="Left" Height="49" Margin="386,475,0,0" VerticalAlignment="Top" Width="238" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" FontSize="20" Padding="14,5,5,5" UseLayoutRounding="False"/>
+                    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="179" Margin="12,527,0,0" VerticalAlignment="Top" Width="994" Background="{DynamicResource {x:Static SystemColors.ScrollBarBrushKey}}"/>
+                    <Image x:Name="QuestionPic" HorizontalAlignment="Left" Height="683" Margin="1031,23,0,0" VerticalAlignment="Top" Width="457" Source="yaddasht.png"/>
+                    <Border BorderBrush="Red" BorderThickness="5" HorizontalAlignment="Left" Height="43" Margin="440,206,0,0" VerticalAlignment="Top" Width="170"/>
+                    <Border BorderBrush="Red" BorderThickness="5" HorizontalAlignment="Left" Height="54" Margin="385,470,0,0" VerticalAlignment="Top" Width="242"/>
+                    <Label Content="لطفا شماره آزمون مورد نظر خود را وارد کرده و گزینه &quot;بررسی و تایید&quot; را انتخاب کنید" HorizontalAlignment="Left" Height="41" Margin="204,36,0,0" VerticalAlignment="Top" Width="420"/>
+                    <TextBox x:Name="txtEIDEnter" HorizontalAlignment="Left" Height="32" Margin="204,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+                    <Button Content="بررسی و تایید" HorizontalAlignment="Left" Height="98" Margin="480,82,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click_1"/>
+                </Grid>
+            </TabItem>
+            <Label Content="Label" Height="34" Width="39"/>
+            <Border BorderBrush="Black" BorderThickness="1" Height="55" Width="56"/>
+            <TextBox Height="26" TextWrapping="Wrap" Text="TextBox" Width="180"/>
+        </TabControl>
+
+    </Grid>
+</Window>

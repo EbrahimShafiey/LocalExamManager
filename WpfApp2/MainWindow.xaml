@@ -1,0 +1,54 @@
+﻿<Window x:Name="MainPage" x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="420.4" Width="568.4" Icon="yaddasht.png">
+    <Grid Background="#FF99F1F3" Margin="0,0,3.2,0" Height="389" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="223" Margin="10,145,0,0" VerticalAlignment="Top" Width="230" Grid.Column="1">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10"/>
+            </Border.Effect>
+            <Label Content="Sign in Page:" FontSize="16" FontWeight="Bold" Background="#FFFFFDCB" Margin="1.2,0.2,-1.4,-0.4"/>
+        </Border>
+        <RadioButton x:Name="rdbINTeacher" Content="Teacher" HorizontalAlignment="Left" Margin="91,183,0,0" VerticalAlignment="Top" Grid.Column="1" Height="15" Width="60" IsChecked="True" TabIndex="1"/>
+        <RadioButton x:Name="rdbINStudent" Content="Student" HorizontalAlignment="Left" Margin="91,203,0,0" VerticalAlignment="Top" Grid.Column="1" Height="15" Width="60" TabIndex="2"/>
+        <TextBox x:Name="userINTeacher" HorizontalAlignment="Left" Height="19" Margin="80,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Grid.Column="1" TabIndex="3"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="16,236,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="64"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="16,264,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="60"/>
+        <PasswordBox x:Name="PassINTeacher" HorizontalAlignment="Left" Height="17" Margin="80,268,0,0" VerticalAlignment="Top" Width="152" Grid.Column="1" TabIndex="4"/>
+        <Border x:Name="___bordersignup_" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="223" Margin="303,146,0,0" VerticalAlignment="Top" Width="232" Background="#FFFFFDCB" Grid.Column="1">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10"/>
+            </Border.Effect>
+            <Button x:Name="btnsignup" Content="Sign Up" HorizontalAlignment="Left" Height="28" Margin="9.2,184.2,0,0" VerticalAlignment="Top" Width="210" ClipToBounds="True" Click="btnsignup_Click"/>
+        </Border>
+        <RadioButton x:Name="SinguprdbTeacher" Content="Teacher" HorizontalAlignment="Left" Margin="318,182,0,0" VerticalAlignment="Top" Grid.Column="1" Height="15" Width="60" Checked="SinguprdbTeacher_Checked" TabIndex="6"/>
+        <RadioButton x:Name="SignuprdbStudent" Content="Student" HorizontalAlignment="Left" Margin="462,182,0,0" VerticalAlignment="Top" Grid.Column="1" Height="15" Width="60" Checked="SignuprdbStudent_Checked" TabIndex="7"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="311,273,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="64"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="311,299,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="59"/>
+        <PasswordBox x:Name="passtxt2" HorizontalAlignment="Left" Height="17" Margin="376,305,0,0" VerticalAlignment="Top" Width="152" Grid.Column="1" TabIndex="11"/>
+        <TextBox x:Name="lastnametxt" HorizontalAlignment="Left" Height="19" Margin="376,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Grid.Column="1" TabIndex="9"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="305,247,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="69"/>
+        <Button x:Name="btnIn" Content="Sing in" HorizontalAlignment="Left" Height="28" Margin="23,331,0,0" VerticalAlignment="Top" Width="210" ClipToBounds="True" Grid.Column="1" Click="Button_Click" TabIndex="5"/>
+        <Label Content="Sign Up Page:" HorizontalAlignment="Left" Margin="309,150,0,0" VerticalAlignment="Top" Width="125" FontWeight="Bold" FontSize="16" Background="{x:Null}" Grid.Column="1" Height="32"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="124" Margin="10,11,0,0" VerticalAlignment="Top" Width="525" Background="#FFEEEEEE">
+            <Border BorderThickness="3" HorizontalAlignment="Left" Height="104" Margin="9.2,9.2,0,0" VerticalAlignment="Top" Width="505" BorderBrush="White">
+                <Label x:Name="lbla" Content="به برنامه آزمون گیر آنلاین خوش آمدید.برای ادامه،ابتدا سطح دسترسی خود را انتخاب کرده و وارد شوید"/>
+            </Border>
+        </Border>
+        <TextBox x:Name="Firstnametxt" HorizontalAlignment="Left" Height="19" Margin="376,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152" Grid.Column="1" TabIndex="8"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="304,222,0,0" VerticalAlignment="Top" Grid.Column="1" Height="26" Width="69"/>
+        <Label x:Name="lblIDshow" Content="Your ID : " HorizontalAlignment="Left" Margin="373,199,0,0" VerticalAlignment="Top" Grid.Column="1" Width="61" Height="25" Background="#FFA4F39B"/>
+        <Label x:Name="IDNum" Grid.ColumnSpan="2" Content="1001" HorizontalAlignment="Left" Margin="431,199,0,0" VerticalAlignment="Top" Background="#FFA4F39B" Height="25" Visibility="Hidden"/>
+        <PasswordBox x:Name="passtxt1" HorizontalAlignment="Left" Height="17" Margin="376,279,0,0" VerticalAlignment="Top" Width="152" Grid.Column="1" TabIndex="10"/>
+    </Grid>
+</Window>

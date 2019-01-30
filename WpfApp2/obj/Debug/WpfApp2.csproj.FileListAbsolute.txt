@@ -1,0 +1,21 @@
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csprojAssemblyReference.cache
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\Teacher Page.g.cs
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\Teacher Page.baml
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\Student Page.g.cs
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\Student Page.baml
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.g.cs
+C:\Users\EbrahimShafiey\source\repos\WpfApp2\WpfApp2\obj\Debug\Window1.baml
